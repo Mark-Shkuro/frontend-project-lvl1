@@ -4,7 +4,7 @@
   "description": "[![Actions Status](https://github.com/Mark-Shkuro/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/Mark-Shkuro/frontend-project-lvl1/actions)",
   "main": "index.js",
   "bin": {
-    "code": "bin/brain-games.js"
+    "brain-games": "bin/brain-games.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,6 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/Mark-Shkuro/frontend-project-lvl1.git"
   },
+  "type": "module",
   "author": "Mark Shkuro",
   "license": "ISC",
   "bugs": {
