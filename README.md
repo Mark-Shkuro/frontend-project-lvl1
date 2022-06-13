@@ -3,4 +3,7 @@
 <a href="https://codeclimate.com/github/Mark-Shkuro/frontend-project-lvl1/maintainability"><img src="https://api.codeclimate.com/v1/badges/d159d27e714516159985/maintainability" /></a>
 
 https://asciinema.org/a/500600
+
 https://asciinema.org/a/500811
+
+https://asciinema.org/a/501341

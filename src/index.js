@@ -15,7 +15,7 @@ const logic = (rules, compare) => {
     const currentAnswer = readlineSync.question(`Question: ${question}\nYour answer: `);
     if (currentAnswer === answer) {
       console.log('Correct!');
-    } else return console.log(`'${currentAnswer}' is wrong answer ;(. Correct answer was '${answer}'.`);
+    } else return console.log(`'${currentAnswer}' is wrong answer ;(. Correct answer was '${answer}'.\nLet's try again, ${userName}!`);
   }
   console.log(gratc);
   return gratc;
