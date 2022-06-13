@@ -9,10 +9,10 @@ const even = () => {
   const evenLogic = () => {
     const num = getRandom();
     const question = num;
-    const answer =  (isEven(num) ? 'yes' : 'no');
-   return [question, answer];
- };
-  logic(rule,evenLogic);
+    const answer = (isEven(num) ? 'yes' : 'no');
+    return [question, answer];
+  };
+  logic(rule, evenLogic);
 };
 
 export default even;
