@@ -9,7 +9,6 @@
             Have a good time.
         </p>
     </div>
-    <hr>
     <div>
         <h2>Installation :</h2>
     <ol>
@@ -19,7 +18,6 @@
         <li>To start the game, enter the name of the game</li>
     </ol>
     </div>
-    <hr>
     <div>
         <h2>Description of games :</h2>
     <ol>
@@ -30,7 +28,6 @@
         <li>brain-progression - fill in a missing number in progression</li>
     </ol>
     </div>
-    <hr>
 <div>
     <div>
         <h2>Visualization of games</h2>
