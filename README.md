@@ -2,7 +2,7 @@
 [![Actions Status](https://github.com/Mark-Shkuro/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/Mark-Shkuro/frontend-project-lvl1/actions)
 
 <a href="https://codeclimate.com/github/Mark-Shkuro/frontend-project-lvl1/maintainability"><img src="https://api.codeclimate.com/v1/badges/d159d27e714516159985/maintainability" /></a>
-
+   <div>
      <h2>About project:</h2>
         <p>
             Welcome to my first project. It is presented in the form of arithmetic games, each of them consists of three rounds or lasts until the loss.
