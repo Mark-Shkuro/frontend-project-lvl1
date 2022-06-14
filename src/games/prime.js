@@ -5,6 +5,9 @@ const prime = () => {
   const rule = 'Answer "yes" if given number is prime. Otherwise answer "no"';
   const primeLogic = (item) => {
     let check = true;
+    if (item === 1 || item === 0) {
+      return check;
+    }
     for (let i = 2; i < item; i += 1) {
       if (item % i === 0) {
         check = false;
