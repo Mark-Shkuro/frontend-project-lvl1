@@ -15,7 +15,7 @@
         <li>Install and update Node.js</li>
         <li>Install npm package</li>
         <li>Install dependencies use make install</li>
-        <li>To start the game, enter the name of the game</li>
+        <li>To start the game, enter make and the name of the game</li>
     </ol>
     </div>
     <div>
