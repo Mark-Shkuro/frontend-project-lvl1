@@ -4,7 +4,7 @@ import getRandom from '../random.js';
 const findPrime = (item) => {
   let check = 'yes';
   if (item < 2) return check;
-  for (let i = 2; i <= item; i += 1) {
+  for (let i = 2; i < item; i += 1) {
     if (item % i === 0) {
       check = 'no';
       return check;
