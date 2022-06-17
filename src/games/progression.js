@@ -3,7 +3,8 @@ import getRandom from '../random.js';
 
 const generateProgression = (firstItem, step, arrLength) => {
   const arr = [];
-  for (let i = firstItem; i <= arrLength * step; i += step) {
+  const boundaryValue = arrLength * step;
+  for (let i = firstItem; i <= boundaryValue; i += step) {
     arr.push(i);
   }
   return arr;
@@ -12,8 +13,9 @@ const generateProgression = (firstItem, step, arrLength) => {
 const progressionLogic = () => {
   const step = getRandom();
   const start = getRandom(0, step);
-  const arr = generateProgression(start, step, 10);
-  const replaceIndex = getRandom(1, 9);
+  const progressionLength = 10;
+  const arr = generateProgression(start, step, progressionLength);
+  const replaceIndex = getRandom(1, progressionLength - 1);
   const answer = String(arr[replaceIndex]);
   arr[replaceIndex] = '..';
   const question = arr.join(' ');
