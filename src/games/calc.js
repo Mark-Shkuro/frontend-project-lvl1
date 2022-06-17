@@ -19,7 +19,7 @@ const operators = ['+', '-', '*'];
 const calcLogic = () => {
   const num1 = getRandom();
   const num2 = getRandom();
-  const findOperator = getRandom(0, operators.length);
+  const findOperator = getRandom(0, operators.length - 1);
   const operator = operators[findOperator];
   const question = `${num1} ${operator} ${num2}`;
   const answer = String(calculate(num1, operator, num2));
