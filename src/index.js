@@ -16,11 +16,10 @@ const logic = (rules, generate) => {
     const currentAnswer = readlineSync.question(`Question: ${question}\nYour answer: `);
     if (currentAnswer !== answer) {
       console.log(`'${currentAnswer}' is wrong answer ;(. Correct answer was '${answer}'.\nLet's try again, ${userName}!`);
-      return '';
+      return;
     } console.log('Correct!');
   }
   console.log(gratc);
-  return '';
 };
 
 export default logic;
